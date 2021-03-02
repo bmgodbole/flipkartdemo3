@@ -1,0 +1,146 @@
+
+   .header{
+       display: flex;
+        width:100%;
+        background-color: #2874f0;
+       font-family: Roboto,Arial,sans-serif;
+       letter-spacing: 0;
+
+   }
+   .logo
+{
+ display:flex;
+/*background-color: red;  */
+cursor: pointer;
+font-size: 14px;
+flex-direction: column;
+justify-content: center;
+}
+   .hleft
+   {
+       display: flex;
+       //justify-content: center;
+         // background-color: lightblue;
+       width:65%;
+   }
+   .explore
+{   color:white;
+    font-size: 11px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+   #fh1{
+        margin-left : 60px;
+    //background-color: green;
+    width :20%;
+      flex-grow: 1;
+    }
+
+   form.header-form-search button {
+    float: left;
+    width: 9%;
+    padding: 10px 10px 10px 10px;
+    background: white;
+    color: black;
+    font-size: 11px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+ form.header-form-search input[type=text] {
+  padding: 10px;
+  font-size: 14px;
+   border: none;
+  float: left;
+  background: white;
+}
+
+form.header-form-search {
+    padding: 8px 4px 4px 4px;
+    width:100%;
+}
+       #fh2{
+             width:10%;
+   // background-color: lightgreen;
+        padding: 14px 4px 4px 4px;
+         flex-grow: 1;
+         margin-right:10px;
+    }
+
+           #fh3{
+
+   // background-color: darkorange;
+    display: flex;
+         width:100% ;
+         flex-grow: 8;
+
+
+    }
+
+    ._3704LK
+    {
+
+        height: 80%;
+//        padding : 8px 8px 4px 8px;
+        min-width: 500px;
+    }
+.hright
+{
+    display:flex;
+    //justify-content:center;
+    width:35%;
+}
+.fh4 , .fh5 , .fh6
+{
+    width:33.33%;
+}
+
+#login  a
+{
+     font-family: Roboto,Arial,sans-serif;
+line-height: 20px;
+font-size: 16px;
+letter-spacing: .1px;
+
+box-sizing: border-box;
+margin: 0;
+text-decoration: none;
+outline: none;
+color: #2874f0;
+font-weight: 500;
+background-color: #fff;
+cursor: pointer;
+border-radius: 2px;
+height: 32px;
+padding: 5px 40px;
+border: 1px solid #dbdbdb;
+text-decoration: none;
+}
+#login
+{
+    margin-top:17px;
+}
+i.fa.fa-shopping-cart {
+    padding: 4px;
+}
+
+#more,#cart
+{
+font-family: Roboto,Arial,sans-serif;
+line-height: 20px;
+font-size: 16px;
+letter-spacing: .1px;
+font-weight: 500;
+color: #fff;
+
+cursor: pointer;
+box-sizing: border-box;
+margin-top: 17px;
+padding: 0;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+max-width: 108px;
+display: block;
+}
